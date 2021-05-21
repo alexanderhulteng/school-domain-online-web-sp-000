@@ -19,7 +19,7 @@ class School
     studentRoster[grade] << name
 
   end
-binding.pry
+
 
 
 end
