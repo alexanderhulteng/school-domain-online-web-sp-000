@@ -2,7 +2,7 @@ require 'pry'
 
 class School
   attr_accessor :name, :grade
-  
+
 
   def initialize(name)
     @name = name
@@ -16,7 +16,7 @@ class School
   end
 
   def add_student(name, grade)
-    
+
     roster[grade] = []
     roster[grade] << name
 
